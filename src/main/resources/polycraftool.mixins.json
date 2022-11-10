@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "bzh.edgar.polycraftool.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ChatHudMixin",
+    "ChatScreenMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "MinecraftClientAccessor",
+    "ScreenMixin",
+    "TeamMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

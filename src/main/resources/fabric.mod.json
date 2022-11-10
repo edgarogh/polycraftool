@@ -1,38 +1,42 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "polycraftool",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Polycraftool",
+  "description": "Mod Fabric client non-officiel pour Polycraft",
   "authors": [
-    "Me!"
+    "Edgar Onghena (MrAnimaM)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/edgarogh/polycraftool/releases",
+    "sources": "https://github.com/edgarogh/polycraftool",
+    "issues": "https://github.com/edgarogh/polycraftool/issues"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/polycraftool/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "bzh.edgar.polycraftool.PolycraftoolClient"
+    ],
+    "modmenu": [
+      "bzh.edgar.polycraftool.config.ModMenuIntegration"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "polycraftool.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",
+    "fabric-key-binding-api-v1": "*",
     "minecraft": "~1.19",
-    "java": ">=17"
+    "java": ">=17",
+    "cloth-config-api": ">=4"
   },
   "suggests": {
-    "another-mod": "*"
+    "mod-menu": "*"
   }
 }

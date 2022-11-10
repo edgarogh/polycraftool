@@ -1,0 +1,20 @@
+{
+  "category.polycraftool.all": "Polycraft",
+  "key.polycraftool.tp_home": "Teleport to your home (/home)",
+  "key.polycraftool.set_home": "Set your home (/sethome)",
+  "key.polycraftool.team_msg": "Open team chat (pre-fill `/tm `)",
+  "login.polycraftool.remember.button": "[Click here]",
+  "login.polycraftool.remember": " to save your Polycraft password in Polycraftool",
+  "login.polycraftool.saved": "Successfully saved password. Auto-login is enabled for future connections.",
+  "login.polycraftool.logged_in": "Auto-login successful",
+  "text.autoconfig.polycraftool.category.autologin": "Auto-login",
+  "text.autoconfig.polycraftool.option.password": "Auto-login password",
+  "text.autoconfig.polycraftool.option.password.@Tooltip": "When set, Polycraftool will attempt to auto-login when joining Polycraft",
+  "text.autoconfig.polycraftool.category.location_prefix_transform": "City prefix rendering",
+  "text.autoconfig.polycraftool.option.chatMessageTransform": "Chat message prefixes",
+  "text.autoconfig.polycraftool.option.displayNameTransform": "Player names (tab menu and player label)",
+  "text.autoconfig.polycraftool.category.debug": "Debugging",
+  "text.autoconfig.polycraftool.option.enableEverywhere": "Enable Polycraftool everywhere",
+  "text.autoconfig.polycraftool.option.enableEverywhere.@Tooltip[0]": "By default, Polycraftool detects when you're playing on Polycraft and only enables its features in this case",
+  "text.autoconfig.polycraftool.option.enableEverywhere.@Tooltip[1]": "By enabling this setting, Polycraftool will be active on all servers and local worlds too"
+}

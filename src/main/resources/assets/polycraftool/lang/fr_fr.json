@@ -1,0 +1,20 @@
+{
+  "category.polycraftool.all": "Polycraft",
+  "key.polycraftool.tp_home": "Se téléporter chez soi (/home)",
+  "key.polycraftool.set_home": "Définir sa maison (/sethome)",
+  "key.polycraftool.team_msg": "Ouvrir le chat d'équipe (pré-remplir `/tm `)",
+  "login.polycraftool.remember.button": "[Cliquez ici]",
+  "login.polycraftool.remember": " pour enregistrer ton mot de passe Polycraft dans Polycraftool",
+  "login.polycraftool.saved": "Mot de passe enregistré. L'auto-connexion est désormais activée.",
+  "login.polycraftool.logged_in": "Connexion automatique réussie",
+  "text.autoconfig.polycraftool.category.autologin": "Auto-connexion",
+  "text.autoconfig.polycraftool.option.password": "Mot de passe d'auto-connexion",
+  "text.autoconfig.polycraftool.option.password.@Tooltip": "Lorsque défini, Polycraftool va essayer de t'auto-login lorsque tu rejoins Polycraft",
+  "text.autoconfig.polycraftool.category.location_prefix_transform": "Rendu du préfixe de ville",
+  "text.autoconfig.polycraftool.option.chatMessageTransform": "Préfixes des messages du chat",
+  "text.autoconfig.polycraftool.option.displayNameTransform": "Noms des joueurs (menu tab et nom du joueur flottant)",
+  "text.autoconfig.polycraftool.category.debug": "Débogage",
+  "text.autoconfig.polycraftool.option.enableEverywhere": "Forcer l'activation de Polycraftool partout",
+  "text.autoconfig.polycraftool.option.enableEverywhere.@Tooltip[0]": "Par défaut, Polycraftool détecte quand vous jouez sur Polycraft et n'active ses fonctionnalités que dans ce cas",
+  "text.autoconfig.polycraftool.option.enableEverywhere.@Tooltip[1]": "En activant ce paramètre, Polycraftool sera également actif sur tous les serveurs et mondes locaux"
+}
