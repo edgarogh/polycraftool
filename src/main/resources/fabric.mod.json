@@ -34,7 +34,7 @@
     "fabric-key-binding-api-v1": "*",
     "minecraft": "~1.19",
     "java": ">=17",
-    "cloth-config-api": ">=4"
+    "cloth-config": ">=4"
   },
   "suggests": {
     "mod-menu": "*"
